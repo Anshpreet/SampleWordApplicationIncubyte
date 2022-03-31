@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WordsDBModelStoreContainer" CdmEntityContainer="WordsDBEntities">
+    <EntitySetMapping Name="Words">
+      <EntityTypeMapping TypeName="WordsDBModel.Word">
+        <MappingFragment StoreEntitySet="Word">
+          <ScalarProperty Name="word_id" ColumnName="word_id" />
+          <ScalarProperty Name="word_param" ColumnName="word_param" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+          <ScalarProperty Name="is_deleted" ColumnName="is_deleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

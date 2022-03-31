@@ -1,0 +1,15 @@
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\SampleWord.Repositories.dll.config
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\SampleWord.Repositories.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\SampleWord.Repositories.pdb
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\SampleWord.CustomExceptions.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\SampleWord.CustomExceptions.pdb
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\SampleWord.CustomExceptions.dll.config
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\obj\Debug\SampleWord.Repositories.csproj.AssemblyReference.cache
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\obj\Debug\SampleWord.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\obj\Debug\SampleWord.Repositories.csproj.CopyComplete
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\obj\Debug\SampleWord.Repositories.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Repositories\obj\Debug\SampleWord.Repositories.pdb

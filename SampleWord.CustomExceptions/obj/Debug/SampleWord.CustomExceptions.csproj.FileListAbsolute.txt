@@ -1,0 +1,12 @@
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\bin\Debug\SampleWord.CustomExceptions.dll.config
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\bin\Debug\SampleWord.CustomExceptions.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\bin\Debug\SampleWord.CustomExceptions.pdb
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\bin\Debug\EntityFramework.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\bin\Debug\EntityFramework.xml
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\obj\Debug\SampleWord.CustomExceptions.csproj.AssemblyReference.cache
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\obj\Debug\SampleWord.CustomExceptions.csproj.CoreCompileInputs.cache
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\obj\Debug\SampleWord.CustomExceptions.csproj.CopyComplete
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\obj\Debug\SampleWord.CustomExceptions.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.CustomExceptions\obj\Debug\SampleWord.CustomExceptions.pdb

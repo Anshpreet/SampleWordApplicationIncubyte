@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WordsDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Word">
+    <Key>
+      <PropertyRef Name="word_id" />
+    </Key>
+    <Property Name="word_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="word_param" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="updated_at" Type="DateTimeOffset" Precision="7" />
+    <Property Name="deleted_at" Type="DateTimeOffset" Precision="7" />
+    <Property Name="is_deleted" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="WordsDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Words" EntityType="Self.Word" />
+  </EntityContainer>
+</Schema>

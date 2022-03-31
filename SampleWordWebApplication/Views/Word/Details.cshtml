@@ -1,0 +1,83 @@
+﻿@model SampleWordWebApplication.Models.WordModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<style type="text/css">
+    .btn {
+        background-color: cornflowerblue;
+        color: ghostwhite;
+        border: 1px solid cornflowerblue;
+    }
+
+        .btn:hover {
+            background-color: forestgreen;
+            color: ghostwhite;
+            border: 1px solid lightblue;
+        }
+    .link {
+        color: blue;
+    }
+</style>
+<br />
+<br />
+<br />
+<hr />
+
+
+<h3 align="center" style="font:500; color:cornflowerblue">Welcome to Word App </h3>
+
+<hr />
+<div>
+    @Html.ActionLink("Back to List", "Index", "", new { @class = "link" })
+</div>
+
+<hr />
+<div style="align-items: center; margin-left: 380px;">
+
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.WordId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WordId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WordParam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WordParam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UpdatedAt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UpdatedAt)
+        </dd>
+
+        @*<dt>
+                @Html.DisplayNameFor(model => model.DeletedAt)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DeletedAt)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.IsDeleted)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.IsDeleted)
+            </dd>*@
+
+    </dl>
+
+</div>

@@ -1,0 +1,6 @@
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Entities\bin\Debug\SampleWord.Entities.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Entities\bin\Debug\SampleWord.Entities.pdb
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Entities\obj\Debug\SampleWord.Entities.csproj.AssemblyReference.cache
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Entities\obj\Debug\SampleWord.Entities.csproj.CoreCompileInputs.cache
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Entities\obj\Debug\SampleWord.Entities.dll
+C:\Users\M1062240\source\repos\SampleWordApplicationIncubyte\SampleWord.Entities\obj\Debug\SampleWord.Entities.pdb

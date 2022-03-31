@@ -1,0 +1,89 @@
+﻿@model IEnumerable<SampleWordWebApplication.Models.WordModel>
+
+@{
+    ViewBag.Title = "Index";
+    string message = "The list is empty. Please add some interesting words.";
+}
+<style type="text/css">
+    .btn {
+        background-color: cornflowerblue;
+        color: ghostwhite;
+        border: 1px solid cornflowerblue;
+    }
+
+        .btn:hover {
+            background-color: forestgreen;
+            color: ghostwhite;
+            border: 1px solid lightblue;
+        }
+        .link{
+            color:blue;
+        }
+</style>
+<div>
+    <br /><br />
+    <br />
+    <hr />
+
+
+    <h3 align="center" style="font:500; color:cornflowerblue">Welcome to Word Crud App </h3>
+
+
+    <hr />
+</div>
+
+<p>
+    @Html.ActionLink("Add New Word", "AddWord", "", new { @class = "btn" })
+</p>
+
+    <table class="table" >
+        <tr>
+            <th >
+                @Html.DisplayNameFor(model => model.WordId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WordParam)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdatedAt)
+            </th>
+            @*<th>
+                    @Html.ActionLink("Add New Word", "AddWord", "", new { @class = "btn" })
+                </th>*@
+            <th></th>
+
+        </tr>
+        @{
+            if (Model.Count() == 0)
+            {
+                @:<tr>
+                    @:<td colspan="8" style="color:orangered; text-align:center;"><pre colspan="8" style="color:orangered; align-content:center;" >No data found.</pre></td>
+                @:</tr>
+            }
+            else
+            {
+                foreach (var item in Model)
+                {
+
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.WordId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.WordParam)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UpdatedAt)
+                        </td>
+
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.WordId }, new {@class= "link"}) |
+                            @Html.ActionLink("Details", "Details", new { id = item.WordId }, new { @class = "link" }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.WordId }, new { @class = "link" })
+                        </td>
+                    </tr>
+                }
+            }
+        }
+    </table>
+
